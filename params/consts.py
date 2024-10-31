@@ -1,4 +1,6 @@
 # Data
+DATASET_MOVIES = '../data/movies_metadata.csv'
+DATASET_RATINGS = '../data/ratings.csv'
 DATASET_RAW = '../data/dataset_raw.csv'
 DATASET_PROCESSED = '../data/dataset_processed.csv'
 DATASET_LEAN = '../data/dataset_lean.csv'
@@ -13,8 +15,10 @@ MODEL_CLASSIFICATION_JOBLIB = '../models/model_classification.joblib'
 MODEL_CLASSIFICATION_PKL = '../models/model_classification.pkl'
 
 # Reports
-EDA_0 = '../reports/eda_0.html'
-EDA_1 = '../reports/eda_1.html'
+EDA_MOVIES_0 = '../reports/eda_movies_0.html'
+EDA_MOVIES_1 = '../reports/eda_movies_1.html'
+EDA_RATINGS_0 = '../reports/eda_ratings_0.html'
+EDA_RATINGS_1 = '../reports/eda_ratings_1.html'
 
 # Values
 RANDOM_STATE = 42
