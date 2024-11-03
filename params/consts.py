@@ -4,6 +4,7 @@ DATASET_RATINGS = '../data/ratings.csv'
 DATASET_RAW = '../data/dataset_raw.csv'
 DATASET_PROCESSED = '../data/dataset_processed.csv'
 DATASET_LEAN = '../data/dataset_lean.csv'
+DATASET_PIVOT = '../data/dataset_pivot.csv'
 DATASET_DUMMIES = '../data/dataset_dummies.csv'
 DATASET_TRANSFORMED = '../data/dataset_transformed.csv'
 DATASET_CLUSTERED = '../data/dataset_clustered.csv'
@@ -11,8 +12,8 @@ DATASET_DEPLOY_CLASSIFICATION = '../data/dataset_deploy_classification.csv'
 DATASET_DEPLOYED_CLASSIFICATION = '../data/dataset_deployed_classification.csv'
 
 # Models
-MODEL_CLASSIFICATION_JOBLIB = '../models/model_classification.joblib'
-MODEL_CLASSIFICATION_PKL = '../models/model_classification.pkl'
+MODEL_RECOMENDATION_JOBLIB = '../models/model_recomendation.joblib'
+MODEL_RECOMENDATION_PKL = '../models/model_recomendation.pkl'
 
 # Reports
 EDA_MOVIES_0 = '../reports/eda_movies_0.html'
