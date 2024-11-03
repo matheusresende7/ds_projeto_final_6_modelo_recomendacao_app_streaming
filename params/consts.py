@@ -1,15 +1,8 @@
 # Data
 DATASET_MOVIES = '../data/movies_metadata.csv'
 DATASET_RATINGS = '../data/ratings.csv'
-DATASET_RAW = '../data/dataset_raw.csv'
-DATASET_PROCESSED = '../data/dataset_processed.csv'
 DATASET_LEAN = '../data/dataset_lean.csv'
 DATASET_PIVOT = '../data/dataset_pivot.csv'
-DATASET_DUMMIES = '../data/dataset_dummies.csv'
-DATASET_TRANSFORMED = '../data/dataset_transformed.csv'
-DATASET_CLUSTERED = '../data/dataset_clustered.csv'
-DATASET_DEPLOY_CLASSIFICATION = '../data/dataset_deploy_classification.csv'
-DATASET_DEPLOYED_CLASSIFICATION = '../data/dataset_deployed_classification.csv'
 
 # Models
 MODEL_RECOMENDATION_JOBLIB = '../models/model_recomendation.joblib'
@@ -17,9 +10,7 @@ MODEL_RECOMENDATION_PKL = '../models/model_recomendation.pkl'
 
 # Reports
 EDA_MOVIES_0 = '../reports/eda_movies_0.html'
-EDA_MOVIES_1 = '../reports/eda_movies_1.html'
 EDA_RATINGS_0 = '../reports/eda_ratings_0.html'
-EDA_RATINGS_1 = '../reports/eda_ratings_1.html'
 
 # Values
 RANDOM_STATE = 42

@@ -7,19 +7,15 @@
 
 
 ## Objetivo
-O objetivo do projeto é, a partir dos dados de campanhas piloto, construir um **modelo de clusterização** para segmentação de clientes em campanhas de marketing em uma plataforma de delivery. <br>
+O objetivo do projeto é, a partir dos dados fornecidos pela equipe de Dados, construir um **modelo de recomendação** para sugerir filmes para os assinantes em uma plataforma de streaming. <br>
 
-A intenção é que o modelo preveja o comportamento dos consumidores e torne possível aplicá-lo a toda a base de clientes, permitindo que a empresa identifique os clientes que têm maior probabilidade de aceitar a campanha, otimizando assim os resultados das campanhas e tornando-as altamente lucrativas. <br>
-
-E em seguida, construir um **modelo de classificação** de acordo com os resultados obtidos no modelo inicial para prever se os clientes devem ou não aceitar as futuras campanhas da empresa.
+A intenção é que o modelo identifique o gosto de filmes dos assinantes e possa sugerir os melhores filmes para que possa reter os assinantes por mais tempo na plataforma, otimizando assim o faturamento da empresa com menor índice de churn e trazendo mais assinantes para plataforma.
 
 
 ## Descrição
-Nesse projeto de Ciência de Dados, resumidamente, foi realizada uma ampla análise exploratória gerando os principais insights do projeto e permitindo identificar duas principais personas para os clientes de uma plataforma de delivery. 
+Nesse projeto de Ciência de Dados, foi criado um modelo de recomendação usando KNN, a partir de dados fornecidos pela equipe de Dados, para sugerir filmes para os assinantes em uma plataforma de streaming.
 
-Em seguida, foi criado um modelo de clusterização usando K-Means para identificar melhor as personas dos clientes e permitindo assim a empresa direcionar melhor a campanha de marketing para os clientes que tem a maior probabilidade de aceitá-la. 
-
-Por fim, foi criado um modelo de classificação usando Regressão Logística para prever se os clientes devem ou não aceitar as futuras campanhas de marketing da empresa.                                                                                                 |
+Esse projeto visa identificar o gosto de filmes dos assinantes e enviar as melhores sugestões para que possa reter os assinantes por mais tempo na plataforma, otimizando assim o faturamento da empresa com menor índice de churn e trazendo mais assinantes para plataforma.                                                                                               |
 
 
 ## Referências
@@ -57,21 +53,5 @@ Por fim, foi criado um modelo de classificação usando Regressão Logística pa
 - `to_do.txt`: Arquivo para anotar as tarefas pendentes do projeto
 
 
-## Resultados - EDA
-![EDA_03](images/output_resultados_eda_03.png)
-
-![EDA_04](images/output_resultados_eda_04.png)
-
-![EDA_05](images/output_resultados_eda_05.png)
-
-## Resultados - Clusterização
-![Models_03](images/output_resultados_models_03.png)
-
-![Models_04](images/output_resultados_models_04.png)
-
-## Resultados - Classificação
-![Models_05](images/output_resultados_models_05.png)
-
-![Models_06](images/output_resultados_models_06.png)
-
-![Models_07](images/output_resultados_models_07.png)
+## Recomendações
+![EDA_03](images/output_simulation.png)
